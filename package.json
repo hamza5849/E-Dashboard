@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix front-end\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.0"
+  }
+}
