@@ -1,15 +1,14 @@
 {
-  "name": "e-dashboard",
+  "name": "e-dashboard-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API for e-dashboard deployed on Vercel",
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "author": "Hamza Asghar",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "vercel-build": "npm install"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -20,5 +19,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
